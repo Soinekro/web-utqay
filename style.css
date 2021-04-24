@@ -1,0 +1,38 @@
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: 0em;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.cover{
+  height: 400px;
+  background-image: url(https://scontent.fpiu2-1.fna.fbcdn.net/v/t1.6435-9/97958901_487648535261637_7531040130639855616_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=e3f864&_nc_eui2=AeF26GTiU91z6yS4rdfb7ZDR_o5lnm0OnTP-jmWebQ6dMxrXXc97CshzRdRA_xvsEy4UEIcHW2KWZmixfr7W08Yo&_nc_ohc=3SYJjYvybykAX-s6lBz&_nc_ht=scontent.fpiu2-1.fna&oh=def1e9667a5c71ee3821d99d3f7596b2&oe=60AA3AB9);
+  background-size: cover;
+  background-position:center;
+  background-color:rgba(0,0,0,0.2);
+  background-blend-mode: darken;
+  color: white;
+}
+
+.cover-card{
+  height: 200px;
+  background-blend-mode:normal;
+}
+.card{
+  margin:auto;
+  padding:2em;
+  border:0!important;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0,0.4), 0 2px 4px -1px rgba(0,0,0,0.08);
+}
+.card-title{
+  margin:auto;
+  min-height:2rem;
+}
+.card-text{
+  margin:auto;
+  font-family: 'Roboto', sans-serif;
+}
