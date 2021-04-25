@@ -23,20 +23,21 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
+    <!-- Encabezaado con logo de Utqay-->
     <header>
       <nav class="navbar navbar-light" style="background-color: #9400d3;">
         <a class="navbar-brand" href="">UTQAY</a>
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"
+            <!--<a class="nav-link active" aria-current="page" href="#"
               >Quienes Somos</a
-            >
+            >-->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Ubicación</a>
+            <a class="nav-link" href="#mapa">Ubicación</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Redes Sociales</a>
+            <a class="nav-link" href="#sociales">Redes Sociales</a>
           </li>
         </ul>
       </nav>
@@ -49,14 +50,15 @@
         <p>
           Lo mejor de Paita, a tu casa!!
         </p>
-        <button class="btn btn-info">
+        <a class="btn btn-info" href="#sociales">
           Conocenos
-        </button>
+        </a>
       </div>
     </header>
+    <!-- Cards de utqay -->
     <section>
       <div class="container mt-4 mb-5">
-        <div class="row justify-content-md-center col-md-auto">
+        <div class="row justify-content-md-center">
           <div class="card" style="width: 18rem;">
             <img
               class="cover-card"
@@ -103,8 +105,9 @@
         </div>
       </div>
     </section>
+    <!-- Zona contacto sociales-->
     <section>
-      <div class="container mt-5 mb-5">
+      <div class="container mt-5 mb-5" id="sociales">
         <div class="row">
           <div align="center">
             <img
@@ -122,9 +125,9 @@
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-evenly" >
+        <div class="d-flex justify-content-evenly">
           <div align="center">
-            <a  href="https://www.instagram.com/utqaydelivery/"
+            <a href="https://www.instagram.com/utqaydelivery/"
               ><img
                 height="50px"
                 src="https://cdn.glitch.com/0b95cef3-c51d-4766-9e3c-3bd0c3379d8f%2F9fbf85d3-414e-4bf9-af05-31319908b9bd.image.png?v=1619279356249"
@@ -159,7 +162,55 @@
         </div>
       </div>
     </section>
+    <!-- Tira de productos-->
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="delivery-stripe">
+          <div class="delivery-content">
+            <div class="card">
+              <img
+                class="cover-card"
+                src="https://cdn.glitch.com/0b95cef3-c51d-4766-9e3c-3bd0c3379d8f%2F3fda1619-8978-42d7-8c9a-61ee66603e7d.image.png?v=1619365238210"
+                alt="Hamburguesa en una mano"
+              />
+              <div class="card-body">
+                <h5 class="card-title">HAMBURGUESA</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="cover-card"
+                src="https://cdn.glitch.com/0b95cef3-c51d-4766-9e3c-3bd0c3379d8f%2Fe6d40f28-3bd7-413e-9cf3-24d17dbf4e68.image.png?v=1619365263477"
+                alt="Pizza"
+              />
+              <div class="card-body">
+                <h5 class="card-title">PIZZA</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="cover-card"
+                src="https://cdn.glitch.com/0b95cef3-c51d-4766-9e3c-3bd0c3379d8f%2F169fc93e-c764-4c9d-864a-811ad7358809.image.png?v=1619365279951"
+                alt="Perrito junto a papas fritas"
+              />
+              <div class="card-body">
+                <h5 class="card-title">PAPAS FRITAS</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mb-5 mt-5 text-center" id="mapa">
+        <h4>
+          Encuentranos aqui!!!
+        </h4>
+      <div class="responsive-iframe">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d18800.6478661881!2d-81.10671407835807!3d-5.087422037315474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sutqay%20paita!5e0!3m2!1ses!2spe!4v1619368811688!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      </div>
+      
+    </section>
   </body>
 </html>
-
-
